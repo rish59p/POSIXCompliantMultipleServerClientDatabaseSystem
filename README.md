@@ -55,4 +55,6 @@ The goal of this assignment is to simulate an application for a distributed grap
 
 - Use of semaphores: For handling concurrent client requests and ensuring that conflicting operations on the same graph file are performed serially.
 - Use of shared memory: For storing graph information and starting vertices for BFS/DFS traversal.
+- Use of multithreading: Each server creates a new thread to handle client requests, allowing for concurrent processing.
+- Use of mutex: Ensures that conflicting operations on the same graph file are performed serially.
 
