@@ -1,0 +1,1 @@
+All files must be in POSIX compliant C code
